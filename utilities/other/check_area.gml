@@ -1,4 +1,5 @@
 ///check_area(x1,y1,x2,y2,collisionx,collisiony,includeviews)
+//Script by Ventisca Games
 //collision arguments refer to the cursor/object area to be checked, while includeviews will behave the x and y coords as absolute
 if argument6 = 0
     {
