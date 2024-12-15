@@ -1,8 +1,9 @@
 ///supersnap(value,grid)
 /*this will snap the value into the desired coord value
-supersnap(20,16)
-x = 20
-x = 20/16 = 1 (rounded down 1.25)
-x = 1 (aka 1 block in a 16 range area.)
+supersnap(65,16)
+x = 65
+x = 65/16 = 4 (rounded down 4.0625)
+x = 4 (aka 4 block in a 16 range area.)
+Script by Ventisca Games
 */
 return round(argument0/argument1)*argument1;
